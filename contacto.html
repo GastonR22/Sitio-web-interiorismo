@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto | Interiorismo - Nallin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web dedicada al Diseño de interiores , diseño de mobiliario y digitalizacion de proyectos"/>
+    <meta name="keywords" content="Diseño interiores, diseño, Digitalización proyectos , diseño mobiliario, interiorismo , Mendoza"/>
+    <meta name="robots" content="ALL">
+    <meta name="robots" content= "index, follow">
+    <meta name="author" content="Gaston Ramirez">
+    <meta name="reply-to" content="gastonramirez2424@gmail.com">
+    <link rel="icon" href="Img/logos/logoC.jpg" type="image/jpg" />
+    <link rel="stylesheet" type="text/css" href="Css/contactoS.css" />
+    <script src="Validacion/validar.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Principal</a></li>
+                <li><a href="quienSoy.html" target="_blank">Quien
+                        soy</a></li>
+                <li><a href="proyectos.html" target="_blank">Proyectos</a></li>
+                <li><a href="contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Comienzo formulario-->
+    <form action="Validacion/enviar.php" method="POST" onsubmit="return validacion()">
+        <div class="dentroForm">
+            <div class="formularioYdudasTexto">
+                <h2>Formulario de contacto</h2>
+                <h3>Dudas, consultas y presupuestos</h3>
+            </div>
+            <div class="labelMove">
+                <label>Nombre(*)</label>
+            </div>
+            <br />
+            <input type="text" name="nombr" id="nombre" placeholder="Ingrese su nombre" class="inputMenosBtn">
+            <br />
+            <div class="labelMove">
+                <label>Apellido</label>
+            </div>
+            <br />
+            <input type="text" name="apellid" id="apellido" placeholder="Ingrese su apellido" class="inputMenosBtn">
+            <br />
+            <div class="labelMove">
+                <label>E-mail(*)</label>
+            </div>
+            <br />
+            <input type="email" name="emai" id="email" placeholder="Ingrese su email" class="inputMenosBtn">
+            <br />
+            <div class="labelMove">
+                <label>Teléfono</label>
+            </div>
+            <br />
+            <input type="tel" name="telefon" id="telefono" placeholder="Ingrese su telefono" class="inputMenosBtn">
+            <br />
+            <div class="labelMove">
+                <label>Mensaje(*)</label>
+            </div>
+            <br />
+            <textarea rows="10" cols="79" name="mensaj" id="mensaje" placeholder="Escriba su mensaje aquí"
+                class="inputMenosBtn"></textarea>
+            <br />
+            <input type="submit" value="Enviar" class="btnEnviar">
+        </div>
+    </form>
+
+    <div class="contactoSecundario">
+         <h2>Email: samiranallin@gmail.com</h2>
+         <a href="https://www.facebook.com/samira.nallin.96" title="Facebook" target="_blank">Facebook</a>
+         <br />
+         <br />
+         <a href="https://www.instagram.com/nallinsamira/" title="Instagram" target="_blank">Instagram</a>
+    </div>
+
+    <!--FIN formulario-->
+
+    <div class="imagen">
+        <hr style="width:50%;">
+        <img src="Img/logos/logoC.jpg" alt="Logo Interiorismo">
+    </div>
+
+    <div class="iconosRedes">
+        <ul>
+            <li><a href="https://www.facebook.com/samira.nallin.96/" target="_blank"><img src="Img/iconoRedes/miniF.png"
+                        alt="Icono Facebook"></a></li>
+            <li><a href="https://www.instagram.com/nallinsamira/" target="_blank"><img src="Img/iconoRedes/miniI.png"
+                        alt="Icono Instagram"></a></li>
+        </ul>
+    </div>
+
+
+    <footer>
+        <div class="agradecimientos">
+            <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik"> Freepik </a> <a
+                    href="https://www.flaticon.es/autores/smashicons" title="Smashicons"> Smashicons </a> <a
+                    href="https://www.flaticon.es/autores/nhor-phai" title="Nhor Phai"> Nhor Phai </a> from <a
+                    href="https://www.flaticon.es/" title="Flaticon">flaticon</a></div>
+            <div>Imagen plumas violeta de <a
+                    href="https://pixabay.com/es/users/Yuri_B-2216431/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4431599">Yuri_B</a>
+                marmol blanco de <a
+                    href="https://pixabay.com/es/users/AnnaHang-6970466/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4145542">hang
+                    Anna</a>
+                en <a
+                    href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4431599">Pixabay</a>
+            </div>
+        </div>
+        <br />
+        <div class="small">
+            <small>&copy 2020 Interiorismo Nallin - Mendoza , Argentina</small>
+        </div>
+    </footer>
+
+</body>
+
+</html>

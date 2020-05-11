@@ -1,0 +1,193 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+
+
+/*Barra de navegacion*/
+nav{
+    padding: 7px;
+    background-color:#3A3D4A;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 7px; 
+    margin-bottom: 4%;
+    border-style: solid;
+    color:whitesmoke;
+    border-width: 3px;
+    border-right: 0;
+    border-left: 0;
+    
+}
+
+nav ul{
+list-style-type: none;
+overflow: hidden;
+padding-right: 3.5%;
+padding-left: 3.5%;
+margin-bottom: 0;
+
+
+}
+
+nav li{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 5%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #9b68b1;
+}
+
+/*Fin barra de navegacion*/
+
+
+/*Imagen logo*/
+
+.imagen{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagen img{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #8a5392;
+    color: whitesmoke;
+}
+
+.imagen hr{
+    margin-bottom: 4%;
+
+}
+/*Fin Imagen logo*/
+
+/*Imagenes proyectos*/
+
+/*Proyecto las cañas*/
+.contenedorImagenes{
+    margin: 2.5%;
+    font-family: verdana;
+
+}
+
+.lasCañasTexto{
+    background-image: url('../Img/fondos/plumas.jpg');
+    text-align: center;
+    padding-bottom: 0.1%;
+    border-radius: 4px;
+    word-spacing: 7px;
+    margin-bottom: 2%;
+}
+
+
+.lasCañas ul{
+    padding: 0;
+}
+
+.lasCañas h1{
+    color: wheat;
+    text-decoration: underline;
+}
+
+.lasCañas p{
+    color: wheat;
+    font-weight: bolder;
+}
+
+.lasCañas h2{
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+}
+
+.lasCañas li{
+    text-align: center;
+    margin: 2%;
+
+}
+
+.lasCañas img{
+    width: 70%;
+    text-align: center;
+    border-radius: 30px;
+    border-style: solid;
+    color: whitesmoke;
+}
+/*FIN Proyecto las cañas*/
+
+/*FIN Imagenes proyectos*/
+
+
+
+
+
+
+/*Iconos redes*/
+.iconosRedes{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 0;
+    }
+    
+    .iconosRedes ul{
+        padding: 0;
+        margin-bottom: 0;
+        
+    
+    }
+    
+    .iconosRedes li{
+        display: inline-block;
+        padding-right: 2%;
+    
+    }
+    
+    .iconosRedes a {
+        text-decoration: none;
+    }
+    
+    .iconosRedes img{
+        color: whitesmoke;
+    }
+    
+    /*Fin iconos Redes */
+    
+
+
+footer{
+    background-color:#3A3D4A;
+    color: whitesmoke;
+    height: auto;
+    border-radius: 7px;
+    margin-left: 1%;
+    margin-right: 1%; 
+    margin-bottom: 1%;
+     
+}
+
+.small{
+
+    text-align: left;
+}
+
+footer small{
+padding-left: 1%;
+font-size: 16px;
+}

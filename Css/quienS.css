@@ -1,0 +1,168 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+
+
+/*Barra de navegacion*/
+nav{
+    padding: 7px;
+    background-color:#3A3D4A;
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 7px; 
+    margin-bottom: 4%;
+    border-style: solid;
+    color:whitesmoke;
+    border-width: 3px;
+    border-right: 0;
+    border-left: 0;
+}
+
+nav ul{
+list-style-type: none;
+overflow: hidden;
+padding-right: 3.5%;
+padding-left: 3.5%;
+margin-bottom: 0;
+
+
+}
+
+nav li{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 5%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #9b68b1;
+}
+
+/*Fin barra de navegacion*/
+
+/*Titulos y parrafos*/
+.quienSoy{
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-style: verdana;
+    font-size: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    
+    
+}
+
+/*Texto central, subtitualos e imagen de fondo*/
+.quienSoy h1{
+text-decoration-line: underline;
+color: wheat;
+}
+
+
+.quienSoy p{
+    font-size: 25px;
+    word-spacing: 13px;
+    color: wheat;
+    font-weight: 700;
+}
+
+.texto{
+    border-style: solid;
+    padding: 1%;
+    border-radius: 30px;
+    border-width: 5px;
+    background-image: url('../Img/fondos/plumas.jpg');
+}
+
+.imagen{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagen img{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #8a5392;
+    color: whitesmoke;
+}
+
+.imagen hr{
+    margin-bottom: 4%;
+
+}
+
+/*Texto central, subtitualos e imagen de fondo*/
+
+/*Iconos redes*/
+.iconosRedes{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    text-align: right;
+    padding-bottom: 0;
+    padding-top: 0;
+    }
+    
+    .iconosRedes ul{
+        padding: 0;
+        margin-bottom: 0;
+        
+    
+    }
+    
+    .iconosRedes li{
+        display: inline-block;
+        padding-right: 2%;
+    
+    }
+    
+    .iconosRedes a {
+        text-decoration: none;
+    }
+    
+    .iconosRedes img{
+        color: whitesmoke;
+    }
+    
+    
+    /*Fin iconos Redes */
+    
+
+
+footer{
+    background-color:#3A3D4A;
+    color: whitesmoke;
+    height: auto;
+    border-radius: 7px;
+    margin-left: 1%;
+    margin-right: 1%; 
+    margin-bottom: 1%;
+     
+}
+
+.small{
+
+    text-align: left;
+}
+
+footer small{
+padding-left: 1%;
+font-size: 16px;
+}
