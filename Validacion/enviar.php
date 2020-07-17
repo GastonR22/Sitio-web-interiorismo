@@ -11,7 +11,7 @@ $contenido .= "E-mail: " . $email . ", \r\n";
 $contenido .= "Teléfono: " . $telefono . ", \r\n";
 $contenido .= "Mensaje: " . $mensaje . ", \r\n";
 
-$para = 'tongarnr79@yahoo.com.ar';
+$para = 'mailEjemplo@gmail.com';
 $asunto ='Mail enviado desde tu sitio web';
 
 mail($para,$asunto,$contenido);
